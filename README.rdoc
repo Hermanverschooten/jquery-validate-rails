@@ -24,7 +24,7 @@ Insert into your application.js manifest the jquery.validate (or jquery.validate
 
 If you would like to localize the messages just add the necessary file to application.js manifest.
 
-		//= require message_nl
+		//= require localization/message_nl
 
 === Use
 
