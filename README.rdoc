@@ -20,12 +20,11 @@ Insert into your application.js manifest the jquery.validate (or jquery.validate
     //= require jquery_ujs
     //= require jquery.validate
 
-And the same to your application.css manifest:
+== Localization
 
-    *= require_self
-    *= require_tree .
-    *= require jquery.validate
+If you would like to localize the messages just add the necessary file to application.js manifest.
 
+		//= require message_nl
 
 === Use
 
