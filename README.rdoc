@@ -33,4 +33,4 @@ I built this gem for using validations with bootstrap-sass.
 
 === References
 
-* JQuery Validate Page: http://http://archive.plugins.jquery.com/project/ufvalidator
+* JQuery Validate Page: http://bassistance.de/jquery-plugins/jquery-plugin-validation/
