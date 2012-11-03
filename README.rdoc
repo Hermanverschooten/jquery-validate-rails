@@ -1,0 +1,37 @@
+= Jquery Validate for Rails
+
+This gem adds the JQuery Validate files to the rails assets pipeline.
+
+==== Gem's JQuery Validate Version
+
+0.0.1.alpha
+
+=== Instalation
+
+Add this gem to your Gemfile:
+
+    gem 'jquery_validate_rails'
+
+This will include to your assets pipeline the jquery validate's javascripts, stylesheets and images.
+
+Insert into your application.js manifest the jquery.validate (or jquery.validate.min)
+
+    //= require jquery
+    //= require jquery_ujs
+    //= require jquery.validate
+
+And the same to your application.css manifest:
+
+    *= require_self
+    *= require_tree .
+    *= require jquery.validate
+
+
+=== Use
+
+I built this gem for using validations with bootstrap-sass.
+
+
+=== References
+
+* JQuery Validate Page: http://http://archive.plugins.jquery.com/project/ufvalidator
